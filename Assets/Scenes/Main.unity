@@ -548,6 +548,68 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: d2c59bcb08415904ab896452bb986dd0, type: 3}
   m_PrefabInstance: {fileID: 30156068}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &30398770
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 30398771}
+  - component: {fileID: 30398773}
+  - component: {fileID: 30398772}
+  m_Layer: 0
+  m_Name: TropicVolume
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &30398771
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 30398770}
+  m_LocalRotation: {x: -0, y: -0.30042017, z: -0, w: 0.953807}
+  m_LocalPosition: {x: 303.4, y: 68.305046, z: 367.9}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1777441232}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -34.966, z: 0}
+--- !u!114 &30398772
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 30398770}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isGlobal: 0
+  priority: 0
+  blendDistance: 30
+  weight: 1
+  sharedProfile: {fileID: 11400000, guid: 7db41b30631bb5443953089b786add89, type: 2}
+--- !u!65 &30398773
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 30398770}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 400, y: 200, z: 400}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &37980383
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17585,13 +17647,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1709545496}
-  m_LocalRotation: {x: -0, y: 0.68616325, z: -0, w: -0.72744757}
-  m_LocalPosition: {x: 308.7, y: 39.3, z: 917.1}
+  m_LocalRotation: {x: -0, y: -0.44984317, z: -0, w: -0.8931076}
+  m_LocalPosition: {x: 82.4, y: 255.1, z: 226.9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: -446.654, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -306.533, z: 0}
 --- !u!114 &1709545500
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18354,6 +18416,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: d1b877e242f61574b9f26de6c08f7c23, type: 3}
   m_PrefabInstance: {fileID: 1762656963}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1777441231
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1777441232}
+  m_Layer: 0
+  m_Name: TropicBiome
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1777441232
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1777441231}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 30398771}
+  m_Father: {fileID: 0}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1777495455
 PrefabInstance:
   m_ObjectHideFlags: 0
