@@ -133,9 +133,9 @@ MonoBehaviour:
   active: 1
   m_AdvancedMode: 0
   master:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value:
-      <length>k__BackingField: 2
+      <length>k__BackingField: 3
       m_Loop: 0
       m_ZeroValue: 0
       m_Range: 1
@@ -143,7 +143,7 @@ MonoBehaviour:
         serializedVersion: 2
         m_Curve:
         - serializedVersion: 3
-          time: 0
+          time: 0.0013227513
           value: 0
           inSlope: 1
           outSlope: 1
@@ -152,10 +152,19 @@ MonoBehaviour:
           inWeight: 0
           outWeight: 0
         - serializedVersion: 3
-          time: 1
-          value: 1
+          time: 0.55291003
+          value: 0.46321523
           inSlope: 1
           outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 0.97619045
+          value: 0.746594
+          inSlope: 0.67481005
+          outSlope: 0.67481005
           tangentMode: 0
           weightedMode: 0
           inWeight: 0
